@@ -3,7 +3,7 @@
 </h1>
 
 <p align="center" width="100%">
-    <img width="30%" src="https://github.com/Narciso30/desafio-picpay-nestjs/blob/main/images/picpay.png"> 
+    <img width="30%" src="https://github.com/Narciso39/desafio-picpay-nestjs/blob/main/images/picpay.png"> 
 </p>
 
 
