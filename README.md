@@ -8,6 +8,6 @@
 
 
 
- **TypeScript/Node**: A linguagem de programação utilizada para o desenvolvimento.
+- **TypeScript/Node**: A linguagem de programação utilizada para o desenvolvimento.
 - **.Nestjs**: O framework que fornece as funcionalidades essenciais para a aplicação.
 - **MySQL**: O banco de dados relacional utilizado para armazenar os dados da aplicação.
