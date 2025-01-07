@@ -1,25 +1,43 @@
 import { Column, Entity, PrimaryGeneratedColumn } from 'typeorm';
 
-@Entity({name: 'user'})
+@Entity({ name: 'user' })
 export class UserEntity {
-    @PrimaryGeneratedColumn()
-    id: number;
+  @PrimaryGeneratedColumn({ type: 'bigint', name: 'id' })
+  id: number;
 
-    @Column()
-    nomeCompleto: string;
+  @Column({
+    name: 'nome_completo',
+    default: 'Nome padrão', 
+  })
+  nomeCompleto: string;
 
-    @Column()
-    cpfCnpj: string;
+  @Column({
+    name: 'cpf_cnpj',
+    default: '000.000.000-00', 
+  })
+  cpfCnpj: string;
 
-    @Column()
-    email: string;
+  @Column({
+    name: 'email',
+    default: 'email@dominio.com', 
+  })
+  email: string;
 
-    @Column()
-    senha: string;
+  @Column({
+    name: 'senha',
+    default: 'senha123', 
+  })
+  senha: string;
 
-    @Column()
-    saldoConta: number;
+  @Column({
+    name: 'saldo_conta',
+    default: 0, 
+  })
+  saldoConta: number;
 
-    @Column()
-    userType: string;
+  @Column({
+    name: 'user_type',
+    default: 'usuario', 
+  })
+  userType: string;
 }
